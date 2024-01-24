@@ -1,0 +1,227 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+body{
+   width: min(150vh, 150vw);
+   height: min(100vh, 100vw); 
+   margin-left: auto; 
+   margin-right: auto;
+   background-color: whitesmoke;
+}
+.header{
+     display: flex;
+     justify-content: space-between;
+     /* height: min(20vh,20vw);
+     align-items: center;
+     width: min(100vh, 100vw);
+     margin-left: auto;
+     margin-right: auto; */
+     padding-top: 20px;
+     
+}
+.logo{
+     font-size: 2rem;
+     padding-left: 20px;
+     display: block;
+}
+.bar{
+text-align: center;
+padding-top: 10px;
+     color: black;
+     text-align: center;
+     font-weight: bold;
+     background-color: rgba(43, 43, 57, 0.2);
+     border-radius: 10px;
+     width: 250px;
+     height: 40px;
+}
+.navbar{
+     display: flex;
+     padding-bottom: 80px;
+     cursor: pointer;
+}
+.link2{
+     width: 130px;
+     height: 40px;
+     text-align: center;
+     font-weight: bold;
+     padding-top: 10px;
+     background-color: white;
+     border-radius: 2px;
+     border: 2px solid purple
+}
+.link3{
+     width: 130px;
+     height: 40px;
+     text-align: center;
+     font-weight: bold;
+       padding-top: 10px;
+     background-color: white;
+     border-radius: 5px; 
+     margin-left: 60px;
+     border: 2px solid purple;
+}
+.euro{
+     padding: 10px;
+     font-weight: bold;
+}
+
+/* main body section */
+.main{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+align-items: center;
+}
+.item{
+     display: inline-table;
+     border: 5px ridge whitesmoke;
+     margin: 10px;
+     width: 30vw;
+     height: 20vh;
+     background-color:#fff;
+     border-radius: 20px;
+     padding: 30px;
+     color: black;
+     line-height: 20px;
+}
+.ask{
+     display: inline-block;
+     margin: 7px;
+     font-weight: bold;
+     padding-top: 10px;
+}
+.name{
+     display: flex;
+     align-items: center;
+     justify-content:space-between;
+     padding-right: 100px;
+     font-size: 1rem;
+     font-weight: bolder;
+     padding-bottom: 10px;
+}
+.money{
+     display: inline-block;
+     margin: 10px;
+     font-weight: bold;
+     padding-top: 10px;
+}
+.element{
+     display: flex;
+     gap: 30px;
+     font-weight: bold;
+     padding-top: 10px;
+     
+}
+.range{
+     display: flex;
+     width: 100%;
+     height: 20px;
+     background-color: rgba(128, 128, 128,0.2);
+     border-radius: 5px;
+}
+.max{
+     width: 44%;
+     height: 20px;
+     background-color: purple;
+}
+.second{
+     width: 39%;
+}
+.min{
+     background: repeating-linear-gradient(-45deg, transparent, transparent 2px, purple 2px, purple 4px);
+width: 10%;
+height: 20px;
+}
+.third{
+     width: 54%;
+}
+.end{
+     background: repeating-linear-gradient(-45deg, transparent, transparent 2px, purple 2px, purple 4px);
+width: 5%;
+height: 20px;
+}
+.line{
+     background-color: white;
+     width: 100%;
+     height: 20px;
+     display: flex;
+     border-radius: 5px;
+}
+.fourth{
+     width:416%;
+     background-color: rgb(156, 121, 50);
+     height: 20px;
+}
+.fifth{
+     background: repeating-linear-gradient(-45deg, transparent, transparent 2px, goldenrod 2px, goldenrod 4px);
+width: 150%;
+height: 20px;
+}
+.six{
+width: 27%;
+height: 20px;
+}
+.seven{
+     background: repeating-linear-gradient(-45deg, transparent, transparent 2px, purple 2px, purple 4px);
+width: 5%;
+height: 20px; 
+}
+.eight{
+     width: 8%;
+     height: 20px;
+}
+.nine{
+     background: repeating-linear-gradient(-45deg, transparent, transparent 2px, purple 2px, purple 4px);
+width: 5%;
+height: 20px; 
+}
+.colos{
+     display: flex;
+     align-items: center;
+     gap: 5px;
+}
+.ring{
+     background-color: black;
+width: 10%;
+height: 20px;
+position: relative;
+right: 40px;
+}
+.circle{
+     height: 10px;
+     width: 10px;
+     border-radius: 50%;
+     background-color: purple;
+}
+.circle2{
+     height: 10px;
+     width: 10px;
+     border-radius: 50%;
+     background: repeating-linear-gradient(-45deg, transparent, transparent 2px, purple 2px, purple 4px);
+}
+.circle3{
+     height: 10px;
+     width: 10px;
+     border-radius: 50%;
+     background-color: gray;
+     
+}
+.circle5{
+     height: 10px;
+     width: 10px;
+     border-radius: 50%;
+     background-color:goldenrod;
+}
+.circle6{
+     height: 10px;
+     width: 10px;
+     border-radius: 50%;
+     background: repeating-linear-gradient(-45deg, transparent, transparent 2px, goldenrod 2px, goldenrod 4px);  
+}
+@media screen and (max-width:700px) {
+     body{
+          background-color: rgba(128, 0, 128, 0.754);
+     }
+}
